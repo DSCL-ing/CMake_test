@@ -1,0 +1,3 @@
+C:/Users/chj/Desktop/Repository/CMake_test/first_cmake1/g/CMakeFiles/first_cmake1.dir
+C:/Users/chj/Desktop/Repository/CMake_test/first_cmake1/g/CMakeFiles/edit_cache.dir
+C:/Users/chj/Desktop/Repository/CMake_test/first_cmake1/g/CMakeFiles/rebuild_cache.dir
