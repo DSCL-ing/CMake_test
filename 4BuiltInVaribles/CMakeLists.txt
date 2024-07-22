@@ -1,11 +1,14 @@
 
 cmake_minimum_required(VERSION 3.20)
 
-project(Xlog)
+project(xlog)
 # 提供信息的变量 PROJECT_NAME:项目名称 -- 对应project的值
 
 # 改变行为的变量 BUILD_SHARED_LIBS,ON动态库,OFF静态库,默认OFF
-set(BUILD_SHARED_LIBS ON)
+set(BUILD_SHARED_LIBS OFF)
+
+# cmake传递变量给C++
+add_definitions(-Dxlog_STATIC) #默认值为1
 
 # 描述系统的变量
 message("MSVC = " ${MSVC})
