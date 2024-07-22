@@ -1,0 +1,3 @@
+/home/chj/git_repositorier/CMake_test/4BuiltInVaribles/b/CMakeFiles/Xloglib.dir
+/home/chj/git_repositorier/CMake_test/4BuiltInVaribles/b/CMakeFiles/edit_cache.dir
+/home/chj/git_repositorier/CMake_test/4BuiltInVaribles/b/CMakeFiles/rebuild_cache.dir

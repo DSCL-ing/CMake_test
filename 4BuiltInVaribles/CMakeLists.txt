@@ -13,4 +13,7 @@ message("WIN32 = " ${WIN32})
 message("UNIX = " ${UNIX})
 message("CMAKE_SYSTEM_NAME = " ${CMAKE_SYSTEM_NAME})
 
+# 控制构建过程的变量 输出路径控制 CMAKE_COLOR_MAKEFILE:makefile执行过程是否有颜色,默认ON
+# set(CMAKE_COLOR_MAKEFILE OFF)
+
 add_library(${PROJECT_NAME}lib xlog.cc xlog.h)
