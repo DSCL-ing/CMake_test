@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chj\Desktop\Repository\CMake_test\6auto_add_source\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chj\Desktop\Repository\CMake_test\6auto_add_source\src\xlog.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\chj\Desktop\Repository\CMake_test\6auto_add_source\include\xlog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chj\Desktop\Repository\CMake_test\6auto_add_source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{70DAD849-6CFC-371E-A8F3-4E29BA6F9440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{071D1EA1-5656-3DB1-8508-31C25E123824}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
