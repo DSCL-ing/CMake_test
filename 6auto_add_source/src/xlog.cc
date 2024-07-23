@@ -1,7 +1,6 @@
 ﻿//xlog.cc
 
 #include<iostream>
-
 #include"xlog.h"
 
 Xlog::Xlog(){

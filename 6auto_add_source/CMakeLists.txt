@@ -18,9 +18,15 @@ cmake_minimum_required(VERSION 3.20)
 
 project("auto_add_source")
 
-include_directories("./include")
 
 aux_source_directory("." M_SRC)
-aux_source_directory(".src" SRC)
+aux_source_directory("./src" SRC)
 
-add_executable(${PROJECT_NAME} ${M_SRC} ${SRC})
+include_directories("./include")
+file(GLOB HDR_LIST "include/*.h" "include/*.hpp")
+
+
+add_executable(${PROJECT_NAME} ${M_SRC} ${SRC} ${HDR_LIST})
+
+
+

@@ -7,9 +7,6 @@
 class Xlog{
     public:
         Xlog();
-        static void func(){
-            puts("hello");
-        }
 };
 
 
