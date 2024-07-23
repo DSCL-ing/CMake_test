@@ -25,9 +25,14 @@ set(BUILD_SHARED_LIBS OFF)
 # cmake传递变量给C++
 add_definitions(-Dxlog_STATIC) #默认值为1
 
-add_library(xlog xlog/xlog.cc)
 
-add_executable(test_xlog test_xlog/test_xlog.cc xlog)
+# add_library(xlog xlog/xlog.cc)
+# add_executable(test_xlog test_xlog/test_xlog.cc xlog)
+
+# 添加子项目目录 -- 每个子项目必须包含CMakeLists.txt文件
+add_subdirectory(xlog)
+add_subdirectory(test_xlog)
+
 
 target_link_libraries(test_xlog xlog)
 
